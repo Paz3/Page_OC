@@ -848,7 +848,7 @@ h8.tittle span{
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
     margin: 0 27%;
-    float: left;
+  /*  float: left;*/
     overflow: hidden;
     position: relative;
     margin: auto;
