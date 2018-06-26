@@ -851,7 +851,7 @@ h8.tittle span{
     float: left;
     overflow: hidden;
     position: relative;
-    text-align: center;
+    margin: auto;
     cursor: default;
 }
 
@@ -2608,7 +2608,7 @@ label {
 		left: 8.5%;
 	}
 	.slider-info {
-		width: 88%;
+		width: 80%;
 	}
 	.offer-header-agile p {
 		margin: 0px 14px;
@@ -2888,7 +2888,7 @@ label {
 		margin-left: 10px;
 	}
 	.slider-info {
-		padding-top: 76px;
+		padding-top: 130px;
 		left: 35px;
 	}
 	.team-grid {
@@ -2963,7 +2963,7 @@ label {
     font-size: 12px;
 	
 	.slider-info {
-		width: 85%;
+		width: 80%;
 	}
 	.slider-info h4 {
 		font-size: 15px;
@@ -3055,3 +3055,31 @@ label {
     font-size: 12px;
 }
 /*--//responsive--*/
+
+@media (max-width: 480px)
+{
+.slider-info {
+    padding-top: 130px;
+    left: 35px;
+}
+};
+@media (max-width: 414px)
+{
+.slider-info {
+    padding-top: 130px;
+    left: 35px;
+}
+};
+@media (max-width: 384px)
+{
+.slider-info {
+    padding-top: 130px;
+    left: 35px;
+}
+}
+@media (max-width: 375px) {
+.slider-info {
+    padding-top: 130px;
+    left: 35px;
+}
+}
